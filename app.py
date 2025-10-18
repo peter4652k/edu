@@ -15,8 +15,8 @@ from langchain_core.output_parsers import StrOutputParser
 # ----------------------------
 # Config / Keys
 # ----------------------------
-GROQ_API_KEY = os.getenv("groq_api_key") or os.getenv("GROQ_API_KEY")
-DB_FAISS_PATH = "db_faiss"
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
+DB_FAISS_PATH = r"db_faiss"
 EMBED_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 
 # ----------------------------
