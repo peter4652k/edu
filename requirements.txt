@@ -1,0 +1,15 @@
+huggingface-hub
+faiss-cpu
+langchain
+langchain-community
+langchain-core
+langchain-huggingface
+langchain-text-splitters
+langsmith
+sentence-transformers
+gradio
+transformers
+urllib3
+groq
+langchain_groq
+rank_bm25
