@@ -3,12 +3,9 @@ faiss-cpu
 langchain
 langchain-community
 langchain-core
-
 langchain-text-splitters
 langsmith
-
 gradio
-
 urllib3
 groq
 langchain_groq
